@@ -46,17 +46,17 @@ function Sidebar() {
             </nav>
 
             {/* User Section */}
-            <div className="absolute bottom-6 left-4 right-4 p-4 bg-slate-800/50 rounded-xl border border-slate-700">
-                <div className="flex items-center space-x-3">
-                    <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
-                        <span className="text-xs font-bold text-white">JD</span>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium text-white truncate">John Doe</p>
-                        <p className="text-xs text-slate-400">Administrator</p>
-                    </div>
-                </div>
-            </div>
+            // <div className="absolute bottom-6 left-4 right-4 p-4 bg-slate-800/50 rounded-xl border border-slate-700">
+            //     <div className="flex items-center space-x-3">
+            //         <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+            //             <span className="text-xs font-bold text-white">JD</span>
+            //         </div>
+            //         <div className="flex-1 min-w-0">
+            //             <p className="text-sm font-medium text-white truncate">John Doe</p>
+            //             <p className="text-xs text-slate-400">Administrator</p>
+            //         </div>
+            //     </div>
+            // </div>
         </div>
     );
 }
