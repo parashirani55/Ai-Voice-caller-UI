@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# 🧠 AI Voice Caller – Admin Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean and modern React-based admin dashboard designed to manage AI-powered voice call campaigns.  
+From call logs and real-time monitoring to campaign creation and transcript review, this UI brings everything together in one intuitive interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features at a Glance
 
-### `npm start`
+- 📞 **Call Logs**  
+  View detailed call history with status badges and playback-style transcript viewer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📂 **Campaign Manager**  
+  Create campaigns with voice type, script, schedule, and lead file uploads (CSV).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🗂️ **Campaign History**  
+  Automatically track and view all created campaigns in a structured table.
 
-### `npm test`
+- 🎧 **Live Monitoring** *(mock-ready)*  
+  Real-time visibility into ongoing AI calls for QA and oversight.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚙️ **Settings Panel**  
+  Configure default voice model, time zones, scripts, and more.
 
-### `npm run build`
+- ✨ **Fully Responsive**  
+  Clean, mobile-friendly UI powered by Tailwind CSS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🧭 **Sidebar Navigation**  
+  Organized route-based structure for seamless user flow.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖼️ Preview
 
-### `npm run eject`
+> 🔧 Live preview or screenshots coming soon...
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is built with:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ⚛️ **React.js** (CRA - Create React App)
+- 🎨 **Tailwind CSS** – For utility-first, responsive design
+- 🎯 **Lucide Icons** – Elegant and modern icons
+- 🧪 **React Hooks** – For state and interaction (`useState`)
+- 🔌 **API-Ready** – Easily extendable to any backend (Node.js, Laravel, etc.)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧑‍💻 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Follow these steps to run the project locally:
 
-### Code Splitting
+### 1. Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/parashirani55/Ai-Voice-caller-UI.git
+cd Ai-Voice-caller-UI
+2. Install Dependencies
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm install
+```
+3. Start the Development Server
+```
+npm start
+```
+The app will be available at: http://localhost:3000
