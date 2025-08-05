@@ -57,8 +57,8 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/parashirani55/Ai-Voice-caller-UI.git
 cd Ai-Voice-caller-UI
+```
 2. Install Dependencies
-
 ```
 npm install
 ```
